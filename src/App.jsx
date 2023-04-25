@@ -12,16 +12,7 @@ import Slide from "./components/Slide";
 
 function App() {
   //슬라이드 이동 함수
-  const [currentIndex, setCurrentIndex] = useState(0);
-  // const [slidePx, setSlidePx] = useState(0);
 
-  // const onClickPrev = () => {
-  //   if (slidePx < 0) setSlidePx(slidePx + 1375);
-  // };
-
-  // const onClickNext = () => {
-  //   if (slidePx > -2750) setSlidePx(slidePx - 1375);
-  // };
   return (
     <BrowserRouter>
       <div className="bg-black px-25 min-h-screen">
